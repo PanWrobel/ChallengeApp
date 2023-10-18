@@ -1,13 +1,11 @@
-﻿String name = "Magda";
-String gender = "female";
-var age = 33;
-
-if (age < 33 && gender == "female") 
-{
-    Console.WriteLine("Niepełnoletnia kobieta");
-}
-else if (age == 33 && gender == "female" && name == "Ewa" )
-{
-    Console.WriteLine("Hej, to Ewa ma 33 lata");    
-}
-    
+﻿///Napisz program.cs kod , który :
+/// - Zadeklarujesz zmienna z imieniem
+/// - Zadeklarujesz zmienną z płcią 
+/// - Zadeklarujesz zmienną z wiekem
+/// - Zweryfikujesz dane i wyświetlisz
+/// jeden z komunikatów:
+/// (1) : "Kobieta  poniżej 30 lat"
+/// (2) : "Ewa, lat 33"
+/// (3) : "Niepełnoletni Mężczyzna"
+/// ----------------------------------
+/// (można dodac swoje).
