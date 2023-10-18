@@ -1,19 +1,13 @@
-﻿/*List<string> dayOfweeks = new List<string>();
-dayOfweeks.Add("Paniedziałek");
-dayOfweeks.Add("Wtorek");
-dayOfweeks.Add("Środa");
-dayOfweeks.Add("Czwartwek");
-dayOfweeks.Add("Piątek");
-dayOfweeks.Add("Sobota");
-dayOfweeks.Add("Niedziela");
+﻿String name = "Magda";
+String gender = "female";
+var age = 33;
 
-for (var i =0; i<dayOfweeks.Count; i++)
+if (age < 33 && gender == "female") 
 {
-    Console.WriteLine(dayOfweeks[i]);
+    Console.WriteLine("Niepełnoletnia kobieta");
 }
-foreach (var day in dayOfweeks)
+else if (age == 33 && gender == "female" && name == "Ewa" )
 {
-    Console.WriteLine(day);
+    Console.WriteLine("Hej, to Ewa ma 33 lata");    
 }
-*/
-
+    
